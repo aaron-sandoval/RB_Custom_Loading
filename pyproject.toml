@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "rb-custom-loading"
+version = "0.1.0"
+description = ""
+authors = ["aaron-sandoval <32021231+aaron-sandoval@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.12"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
